@@ -13,10 +13,10 @@ def serializeFile():
     selectedFormat = input(f"Please enter file type between {fileFormat}:")
 
     if selectedFormat == fileFormat[0]:
-        convertFile(".json")
+        convertFile("json")
 
     elif selectedFormat == fileFormat[1]:
-        convertFile(".xml")
+        convertFile("xml")
 
     elif selectedFormat == fileFormat[2]:
         convertFile("_json.txt")
